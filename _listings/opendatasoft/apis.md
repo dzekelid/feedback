@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: Feedback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OpenDataSoft - Put Source Datasets Dataset Feedback
+  x-api-slug: sourcedatasetsdataset-idfeedback-put
+  description: Create new feedback entry.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Streams, Cities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/opendatasoft/sourcedatasetsdataset-idfeedback-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencorporates.api.gallery.streamdata.io

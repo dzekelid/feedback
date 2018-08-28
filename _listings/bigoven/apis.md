@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigove
 x-kinRank: "8"
 x-alexaRank: "117577"
 tags: Feedback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/bigoven/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Big Oven - Feedback on a Recipe -- for internal BigOven editors
+  x-api-slug: reciperecipeidfeedback-post
+  description: Feedback on a recipe -- for internal bigoven editors.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
+  humanURL: http://www.bigoven.com
+  baseURL: https://api2.bigoven.com//
+  tags: Cooking, Food, Nutrition, Recipes, Food, Stack Network, Mobile, Technology,
+    internet, API Provider, , Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/bigoven/reciperecipeidfeedback-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.bigoven.com

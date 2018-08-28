@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: FraudLabs Pro
 x-complete: 1
@@ -39,4 +38,3 @@ paths:
       - Orders
       - Fraud
       - Feedback
----

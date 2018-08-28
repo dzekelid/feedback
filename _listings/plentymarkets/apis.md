@@ -11,11 +11,42 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Feedback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
+- name: plentymarkets REST-API - Create a feedback comment
+  x-api-slug: restfeedbackscomment-post
+  description: Creates a feedback comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbackscomment-post-openapi.md
+- name: plentymarkets REST-API - Delete a feedback comment
+  x-api-slug: restfeedbackscommentcommentid-delete
+  description: Deletes a feedback comment. The ID of the feedback comment must be
+    specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbackscommentcommentid-delete-openapi.md
+- name: plentymarkets REST-API - Get a feedback comment
+  x-api-slug: restfeedbackscommentcommentid-get
+  description: Gets a feedback comment. The ID of the feedback comment must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbackscommentcommentid-get-openapi.md
 - name: plentymarkets REST-API - List feedback comments
   x-api-slug: restfeedbackscomments-get
   description: Lists feedback comments.
@@ -238,6 +269,57 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksmigrate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksmigrate-post-openapi.md
+- name: plentymarkets REST-API - Migrate legacy feedbacks
+  x-api-slug: restfeedbacksmigrate-post
+  description: Migrate legacy feedbacks.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksmigrate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksmigrate-post-openapi.md
+- name: plentymarkets REST-API - Update the visibility of multiple feedbacks
+  x-api-slug: restfeedbacksfeedbacks-visibility-put
+  description: Updates the visibility of multiple feedbacks. A list with IDs of feedbacks
+    must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksfeedbacks-visibility-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksfeedbacks-visibility-put-openapi.md
+- name: plentymarkets REST-API - List feedbacks
+  x-api-slug: restfeedbacksfeedbacks-get
+  description: Lists feedbacks. The reference type and the reference value must be
+    specified (e.g. the reference type is 'order' and the reference value is the ID
+    of the order).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksfeedbacks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksfeedbacks-get-openapi.md
+- name: plentymarkets REST-API - Delete multiple feedbacks
+  x-api-slug: restfeedbacksdelete-feedbacksfeedbackids-delete
+  description: Deletes multiple feedbacks. A list with IDs of feedbacks must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksdelete-feedbacksfeedbackids-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/restfeedbacksdelete-feedbacksfeedbackids-delete-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

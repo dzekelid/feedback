@@ -17,11 +17,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Feedback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
+- name: reverb - Get Feedback Feedback
+  x-api-slug: feedbackfeedback-id-get
+  description: Get feedback feedback.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/feedbackfeedback-id-get-openapi.md
+- name: reverb - Get My Feedback Received
+  x-api-slug: myfeedbackreceived-get
+  description: List of received feedback
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/myfeedbackreceived-get-openapi.md
+- name: reverb - Get My Feedback Sent
+  x-api-slug: myfeedbacksent-get
+  description: List of sent feedback
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/myfeedbacksent-get-openapi.md
 - name: reverb - Get My Orders Awaiting Feedback
   x-api-slug: myordersawaiting-feedback-get
   description: List of orders that need feedback
@@ -35,6 +68,50 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/myordersawaiting-feedback-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/myordersawaiting-feedback-get-openapi.md
+- name: reverb - Get Orders Order Feedback Buyer
+  x-api-slug: ordersorder-idfeedbackbuyer-get
+  description: Feedback details for an order's buyer
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/ordersorder-idfeedbackbuyer-get-openapi.md
+- name: reverb - Post Orders Order Feedback Buyer
+  x-api-slug: ordersorder-idfeedbackbuyer-post
+  description: Add feedback about an order's buyer
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/ordersorder-idfeedbackbuyer-post-openapi.md
+- name: reverb - Get Orders Order Feedback Seller
+  x-api-slug: ordersorder-idfeedbackseller-get
+  description: Feedback details for an order's seller
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/ordersorder-idfeedbackseller-get-openapi.md
+- name: reverb - Post Orders Order Feedback Seller
+  x-api-slug: ordersorder-idfeedbackseller-post
+  description: Add feedback about an order's seller
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/ordersorder-idfeedbackseller-post-openapi.md
 - name: reverb - Get Shops Slug Feedback
   x-api-slug: shopsslugfeedback-get
   description: Get shops slug feedback.

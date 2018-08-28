@@ -1,0 +1,318 @@
+{
+	"name": "Streadata.io API Gallery - Feedback",
+	"description": "This is a repository of feedback APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/feedback.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://feedback.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UserVoice",
+			"x-api-slug": "uservoice",
+			"description": "Product management software that transforms how businesses capture and analyze feedback to prioritize the roadmap and make strategic product decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoice.jpg",
+			"humanURL": "https://uservoice.com/",
+			"baseURL": ":///user/http://api.thenounproject.com",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/uservoice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UsefulFeedback",
+			"x-api-slug": "usefulfeedback",
+			"description": "Complaint Management Solutions and complaints handling software - user friendly and scalable feedback management solutions optimised for your business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1073-usefulfeedback.jpg",
+			"humanURL": "http://www.usefulfeedback.com/",
+			"baseURL": "https:///",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/usefulfeedback/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Watson",
+			"x-api-slug": "ibm-watson",
+			"description": "Meet IBM Watson, a cognitive system that enables a new partnership between people and computers that enhances and scales human expertise. Watson has been learning the language of professions and is trained by experts to work across many different industries.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png",
+			"humanURL": "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/",
+			"baseURL": "https://ibm-watson-ml.mybluemix.net/v3/",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/ibm-watson/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Watchful",
+			"x-api-slug": "watchful",
+			"description": "Watchful resulted from the need for a single, unified dashboard to easily monitor all of the web sites in our portfolios. After years of evolution, our solution has matured into a simple, complete and professional service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg",
+			"humanURL": "http://watchful.li",
+			"baseURL": "https://watchful.li//api/v1",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Delighted",
+			"x-api-slug": "delighted",
+			"description": "Delighted uses Net Promoter Score to gather real feedback from your customers &ndash; in minutes not weeks. Delighted streamlines survey creation and delivery. Say goodbye to long surveys with abysmal response rates. Our surveys generate high response rates by blending seamlessly with your brand and respecting your customers&rsquo; time. Delighted gives you full control of how, when, and where your customers are surveyed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19284-delighted-(slackbot).jpg",
+			"humanURL": "https://delighted.com",
+			"baseURL": "https:///",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/delighted/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FraudLabs Pro",
+			"x-api-slug": "fraudlabs-pro",
+			"description": "FraudLabs Pro provides sophisticated fraud detection solution helping merchants to prevent payment fraud and minimize chargeback & losses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28712-www-fraudlabspro-com.jpg",
+			"humanURL": "https://www.fraudlabspro.com",
+			"baseURL": "https://virtserver.swaggerhub.com//fraudlabspro/fraudlabspro/1.0",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/fraudlabs-pro/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Starred",
+			"x-api-slug": "starred",
+			"description": "Better feedback for everyone, on a human scale. At Starred we like to work smart: working smarter to build great software, and working with smart companies who listen. As the feedback solution which puts the respondent first, we&rsquo;re empowering conversations between companies and their customers and employees. What&rsquo;s more, we equip them with the actionable insights they need to make better decisions and boost loyalty. With leading lights like Deliveroo, Heineken and Spotify already working with us to bring feedback to life, the road ahead for better feedback is looking good.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png",
+			"humanURL": "https://www.starred.com",
+			"baseURL": "https://example.com//",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/starred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Feedback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Feedback",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "UserVoice",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/uservoice/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "UsefulFeedback",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/usefulfeedback/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "IBM Watson",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/ibm-watson/apis.yaml"
+		},
+		{
+			"name": "Watchful",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/apis.yaml"
+		},
+		{
+			"name": "Delighted",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/delighted/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "FraudLabs Pro",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/fraudlabs-pro/apis.yaml"
+		},
+		{
+			"name": "Starred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/starred/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

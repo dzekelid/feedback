@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Feedback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-openapi.md
+- name: Watchful - Create A Feedback
+  x-api-slug: feedbacks-post
+  description: Create a feedback
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-post-openapi.md
 - name: Watchful - Get The List Of Fields
   x-api-slug: feedbacksmetadata-get
   description: Returns a list of fields
@@ -49,6 +59,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-openapi.md
+- name: Watchful - Create A Feedback
+  x-api-slug: feedbacks-post
+  description: Create a feedback
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-post-openapi.md
 - name: Watchful - Get The List Of Fields
   x-api-slug: feedbacksmetadata-get
   description: Returns a list of fields
@@ -61,6 +81,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacksmetadata-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacksmetadata-get-openapi.md
+- name: Watchful - Get The List Of Fields
+  x-api-slug: feedbacksmetadata-get
+  description: Returns a list of fields
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacksmetadata-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacksmetadata-get-openapi.md
+- name: Watchful - Create A Feedback
+  x-api-slug: feedbacks-post
+  description: Create a feedback
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-post-openapi.md
+- name: Watchful - Get Feedbacks
+  x-api-slug: feedbacks-get
+  description: Returns a list of feedbacks
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feedback/master/_listings/watchful/feedbacks-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://washington.metropolitan.area.transit.authority.api.gallery.streamdata.io
